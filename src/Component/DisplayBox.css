@@ -1,0 +1,35 @@
+.displaybox{
+  border: 1px solid rgb(205, 205, 205);
+  min-width: 50%;
+  color: white;
+  border-radius: 10px;
+
+}
+.product_details{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.product_details li{
+  list-style: none;
+  padding: 10px 10px;
+  font-size: 1.3rem;
+  background-color: rgb(11, 73, 97);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.product_details li button{
+  float: right;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 1px solid #8a2be2;
+  font-size: 1.3rem;
+  background-color: #8a2be2;
+  color: white;
+  cursor: pointer;
+}

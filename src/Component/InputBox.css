@@ -1,0 +1,21 @@
+form{
+  /* border: 1px solid orange; */
+  padding:10px;  
+  margin-top: 30px;
+  min-width: 500px;
+}
+form  button{
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #8a2be2;
+  display: block;
+  margin: auto;
+  font-size: 1.3rem;
+  background-color: #8a2be2;
+  color: white;
+  cursor: pointer;
+}
+form button:hover{
+  background-color: #723ba6;
+  border: 1px solid   #7803e5;;
+}
